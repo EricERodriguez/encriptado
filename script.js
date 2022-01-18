@@ -2,13 +2,8 @@ const getValueInput = (value) =>
 {
     let inputValue = document.getElementById("domTextElement").value;
 
-    // frase = encript(inputValue)
-
-    console.log(value)
-
     {value === 0? frase = encript(inputValue): frase = desencript(inputValue)}
     document.getElementById("valueInput").innerHTML = frase;
-    console.log(frase)
 }
 
 function encript(frase) {
@@ -29,7 +24,7 @@ function encript(frase) {
 }
 
 function desencript(frase) {
-    
+
     let letraE = /enter/g;
     let letraI = /imes/g;
     let letraA = /ai/g;
