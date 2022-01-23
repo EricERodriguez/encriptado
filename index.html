@@ -7,17 +7,25 @@
     <title>Encriptado</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<label class="titulo" for="domTextElement">Texto a encriptar: </label>
-<input class="text-input"  type="text" id="domTextElement" class="box">
+<div class="container">
+    <div class="box">
+        <label class="titulo" for="domTextElement">Texto a encriptar: </label>
+        <input class="text-input"  type="text" id="domTextElement" class="box">
 
-<button type="button" class="btn" onclick="getValueInput(0)">
-    Encriptar
-</button>
-<button type="button" class="btn" onclick="getValueInput(1)">
-    Desencriptar
-</button>
+        <button type="button" class="css-button-shadow-border-sliding--black" onclick="getValueInput(0)">
+            Encriptar
+        </button>
+        <button type="button" class="css-button-shadow-border-sliding--black" onclick="getValueInput(1)">
+            Desencriptar
+        </button>
+    </div>
 
-<p id="valueInput"></p>
+    <div class="box">
+        <p id="valueInput"></p>
+    </div>
+</div>
+
+
 
 
 <footer>
